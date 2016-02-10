@@ -16,7 +16,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	auto glview = director->getOpenGLView();
 	if (!glview) {
 		glview = GLViewImpl::create("Snake Game");
-		glview->setFrameSize(500, 500);
+		glview->setFrameSize(500, 505);
 		director->setOpenGLView(glview);
 	}
 
